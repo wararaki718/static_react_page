@@ -1,0 +1,1 @@
+# static_react_page

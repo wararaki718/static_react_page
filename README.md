@@ -1,6 +1,6 @@
 # sample profile app
 
-## start node server app
+## start node server app (yarn)
 
 ```shell
 yarn start
@@ -8,7 +8,7 @@ yarn start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### build
+### build & serve (yarn)
 
 ```shell
 yarn build
@@ -18,10 +18,14 @@ yarn build
 serve -s build
 ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## build & serve (nginx)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```shell
+docker-compose build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+docker-compose up
+```
+
+Open [http://localhost:80](http://localhost:80) to view it in the browser.

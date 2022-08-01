@@ -29,3 +29,7 @@ docker-compose up
 ```
 
 Open [http://localhost:80](http://localhost:80) to view it in the browser.
+
+## github pages
+
+https://wararaki718.github.io/static_react_page/

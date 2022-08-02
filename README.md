@@ -18,20 +18,6 @@ yarn build
 serve -s build
 ```
 
-## build & serve (nginx)
-
-```shell
-docker-compose build
-```
-
-```shell
-docker-compose up
-```
-
-Open [http://localhost:80](http://localhost:80) to view it in the browser.
-
-if your use docker, you remove homepage settings in package.json.
-
 ## github pages
 
 https://wararaki718.github.io/static_react_page/
